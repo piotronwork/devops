@@ -4,7 +4,7 @@
 
 	<groupId>com.example</groupId>
 	<artifactId>devops</artifactId>
-	<version>1.2.3-SNAPSHOT</version>
+	<version>1.3.2-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 	<name>devops</name>
@@ -51,6 +51,11 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+        <!-- spring boot logging dependency -->
+		<dependency>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-starter-logging</artifactId>
 		</dependency>
 
 		<dependency>

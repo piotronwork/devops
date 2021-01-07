@@ -2,7 +2,7 @@ node {
    def mvnHome
    stage('Prepare') {
       git url: 'git@github.com:piotronwork/devops.git', branch: 'develop'
-      mvnHome = tool 'maven'
+      mvnHome = tool 'maven3'
    }
    stage('Build') {
       if (isUnix()) {
